@@ -4,9 +4,11 @@ export const Home = () => {
     document.title = "Accueil - Robbie Lens"
     return(
         <section>
-            <header className="flex items-end bg-[white] text-[#242424]">
+            <header className="flex items-end bg-[white] text-[#242424] py-12">
                 <img src="images/logo.png" alt="" />
-                <NavLink to="a-propos" className="hover:underline hover:opacity-50">A propos</NavLink>
+                <nav className="flex items-end">
+                    <NavLink to="a-propos" className="hover:underline hover:opacity-50">A propos</NavLink>
+                </nav>
             </header>
             <main>
                 <h1>Photographie</h1>  
