@@ -5,8 +5,8 @@ export const APropos = () => {
     return(
         <section>
             <div className="flex items-end bg-[white] text-[#242424]">
-                <NavLink to="/"><img src="images/logo.png" alt="" /></NavLink>
-                <NavLink to="/">Accueil</NavLink>
+                <NavLink to="/" className="hover:opacity-50"><img src="images/logo.png" alt="" /></NavLink>
+                <NavLink to="/" className="hover:underline hover:opacity-50">Accueil</NavLink>
             </div>
             <h1>A propos de Robbie Lens</h1>
             <div className="border-t border-b border-[#8e86b5]">
@@ -21,13 +21,13 @@ export const APropos = () => {
             </div>
 
             <div>
-                <a href="" className="bg-gradient-to-r from-[#8e86b5] to-[#acaeed] text-white">VOIR MON PORTFOLIO</a>
+                <a href="" className="bg-gradient-to-r from-[#8e86b5] to-[#acaeed] text-white hover:bg-gradient-to-r hover:from-[#696484] hover:to-[#8788BA]">VOIR MON PORTFOLIO</a>
             </div>
 
             <footer className='flex items-end bg-[white] text-[#242424]'>
-                <NavLink to="/"><img src="images/logo.png" alt="" /></NavLink>
-                <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="" /></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="" /></a>
+                <NavLink to="/" className="hover:opacity-50"><img src="images/logo.png" alt="" /></NavLink>
+                <a href="https://twitter.com/" target="_blank" className="hover:opacity-50"><img src="images/twitter.png" alt="" /></a>
+                <a href="https://www.instagram.com/" target="_blank" className="hover:opacity-50"><img src="images/instagram.png" alt="" /></a>
             </footer>
         </section>
     )
