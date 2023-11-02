@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 3.5em;
+  color: #A5B4FC;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #F9F8FF;
+  font-weight: bold;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+p {
+  color: #F9F8FF;
+  font-size: 1.1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+ul {
+  list-style-type: disc;
+  color: #F9F8FF;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}

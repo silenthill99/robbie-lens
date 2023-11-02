@@ -7,18 +7,13 @@ import { APropos } from './Pages/A propos';
 
 function App() {
   return (
-    <div>
+    <div className='bg-[#1F2039]'>
       <main>
-        
+        <Routes>
+          <Route path='' element={<Home/>}/>
+          <Route path='a-propos' element={<APropos/>}/>
+        </Routes>
       </main>
-      <Routes>
-        <Route path='' element={<Home/>}/>
-        <Route path='a-propos' element={<APropos/>}/>
-      </Routes>
-      <footer>
-        <a href="https://twitter.com/" target="_blank">Twitter</a><br/>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-      </footer>
     </div>
   );
 }
