@@ -46,3 +46,17 @@ ul {
   margin-block-end: 1em;
   padding-inline-start: 40px;
 }
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
