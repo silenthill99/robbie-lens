@@ -24,6 +24,7 @@ export const Home = () => {
                     <img src="images/accueil/element-5.png" alt="" />
                     <img src="images/accueil/element-6.png" alt="" />
                 </div>
+                
             </section>
         </section>
     )

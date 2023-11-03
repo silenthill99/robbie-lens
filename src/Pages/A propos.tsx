@@ -16,7 +16,7 @@ export const APropos = () => {
                 </ul>
             </div>
             <div>
-                <a href="" className="bg-gradient-to-r from-[#8e86b5] to-[#acaeed] text-white hover:bg-gradient-to-r hover:from-[#696484] hover:to-[#8788BA] rounded-full">VOIR MON PORTFOLIO</a>
+                <NavLink to="../portfolio" className="bg-gradient-to-r from-[#8e86b5] to-[#acaeed] text-white hover:bg-gradient-to-r hover:from-[#696484] hover:to-[#8788BA] rounded-full">VOIR MON PORTFOLIO</NavLink>
             </div>
         </section>
     )

@@ -4,6 +4,7 @@ import './App.css';
 import { Home } from './Pages/Home';
 import { Routes, Route, NavLink } from "react-router-dom";
 import { APropos } from './Pages/A propos';
+import { Portfolio } from './Pages/Portfolio';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <div>
             <NavLink to="/" className="hover:underline hover:opacity-50 ml-[30px]">Accueil</NavLink>
             <NavLink to="a-propos" className="hover:underline hover:opacity-50 ml-[30px]">A propos</NavLink>
+            <NavLink to="portfolio" className="hover:underline hover:opacity-50 ml-[30px]">Portfolio</NavLink>
           </div>
         </nav>
       </header>
@@ -21,6 +23,7 @@ function App() {
         <Routes>
           <Route path='' element={<Home/>}/>
           <Route path='a-propos' element={<APropos/>}/>
+          <Route path='portfolio' element={<Portfolio/>}/>
         </Routes>
       </main>
       <footer className='bg-[white] text-[#242424] flex flex-row items-center justify-between'>
