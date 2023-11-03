@@ -6,8 +6,11 @@ export const Portfolio = () => {
                 <h1>Portfolio</h1>
                 <section className="bg-white">
                     <h2 className="text-[#242424] mb-[80px]">Voyages</h2>
-                    <div className="grid grid-cols-3 grid-rows-[300px_300px_300px] gap-[15px]">
-                        <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/paysage1.jpg" alt="" />
+                    <div className="grid grid-cols-3 grid-rows-[300px_300px_300px] gap-[15px] relative">
+                        <a href="images/portfolio/paysage1.jpg" target="_blank" rel="noopener noreferrer relative">
+                            <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/paysage1.jpg" alt="" />
+                            <div>Voir la photo</div>
+                        </a>
                         <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/paysage2.jpg" alt="" />
                         <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/paysage3.jpg" alt="" />
                         <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/paysage4.jpg" alt="" />
