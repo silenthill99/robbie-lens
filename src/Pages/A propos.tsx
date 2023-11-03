@@ -5,7 +5,7 @@ export const APropos = () => {
     return(
         <section className="m-auto">
             <h1>À propos</h1>
-            <div className="border-y border-[#8e86b5] p-12">
+            <div className="border-y border-[#8e86b5] p-[50px]">
                 <p>Photographe depuis plus de 5 ans, je réalise des reportages aux photos dynamiques et pertinentes pour vos projets de communication. Créativité, qualité, et sérénité pour vous ! Je gère tous, depuis la direction artistique, la réalisation du reportage, jusqu'à la livraison de vos photos retouchées, prêtes à l'emploi.</p>
                 <h2>Services</h2>
                 <ul>

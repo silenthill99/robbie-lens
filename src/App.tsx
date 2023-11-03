@@ -9,11 +9,11 @@ function App() {
   return (
     <div>
       <header>
-        <nav className="flex items-end justify-between bg-[white] text-[#242424]">
-          <NavLink to="/" className="hover:opacity-50"><img src="images/logo.png" alt="" /></NavLink>
+        <nav className="flex flex-row items-center justify-between bg-[white] text-[#242424]">
+          <NavLink to="/" className="hover:opacity-50 ml-[30px]"><img src="images/logo.png" alt="" /></NavLink>
           <div>
-            <NavLink to="/" className="hover:underline hover:opacity-50">Accueil</NavLink>
-            <NavLink to="a-propos" className="hover:underline hover:opacity-50">A propos</NavLink>
+            <NavLink to="/" className="hover:underline hover:opacity-50 ml-[30px]">Accueil</NavLink>
+            <NavLink to="a-propos" className="hover:underline hover:opacity-50 ml-[30px]">A propos</NavLink>
           </div>
         </nav>
       </header>
@@ -23,10 +23,12 @@ function App() {
           <Route path='a-propos' element={<APropos/>}/>
         </Routes>
       </main>
-      <footer className='flex items-end bg-[white] text-[#242424]'>
+      <footer className='bg-[white] text-[#242424] flex flex-row items-center justify-between'>
         <NavLink to="/" className="hover:opacity-50"><img src="images/logo.png" alt="" /></NavLink>
-        <a href="https://twitter.com/" target="_blank" className="hover:opacity-50"><img src="images/twitter.png" alt="" /></a>
-        <a href="https://www.instagram.com/" target="_blank" className="hover:opacity-50"><img src="images/instagram.png" alt="" /></a>
+        <div className='flex'>
+          <a href="https://twitter.com/" target="_blank" className="hover:opacity-50"><img src="images/twitter.png" alt="" /></a>
+          <a href="https://www.instagram.com/" target="_blank" className="hover:opacity-50"><img src="images/instagram.png" alt="" /></a>
+        </div>
       </footer>
     </div>
   );
