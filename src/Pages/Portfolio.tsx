@@ -46,12 +46,30 @@ export const Portfolio = () => {
                     </div>
                     <h2 className="text-[#242424] mb-[80px]">Portraits</h2>
                     <div className="grid grid-cols-3 grid-rows-[300px_300px] gap-[15px]">
-                        <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait1.jpg" alt="" />
-                        <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait2.jpg" alt="" />
-                        <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait3.jpg" alt="" />
-                        <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait4.jpg" alt="" />
-                        <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait5.jpg" alt="" />
-                        <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait6.jpg" alt="" />
+                        <a href="images/portfolio/portrait1.jpg" target="_blank" className="images relative">
+                            <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait1.jpg" alt="" />
+                            <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-[1.5em] text-white bg-black/70 hidden">Voir la photo</div>
+                        </a>
+                        <a href="images/portfolio/portrait2.jpg" target="_blank" className="images relative">
+                            <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait2.jpg" alt="" />
+                            <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-[1.5em] text-white bg-black/70 hidden">Voir la photo</div>
+                        </a>
+                        <a href="images/portfolio/portrait3.jpg" target="_blank" className="images relative">
+                           <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait3.jpg" alt="" />
+                           <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-[1.5em] text-white bg-black/70 hidden">Voir la photo</div>
+                        </a>
+                        <a href="images/portfolio/portrait4.jpg" target="_blank" className="images relative">
+                            <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait4.jpg" alt="" />
+                            <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-[1.5em] text-white bg-black/70 hidden">Voir la photo</div>
+                        </a>
+                        <a href="images/portfolio/portrait5.jpg" target="_blank" className="images relative">
+                            <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait5.jpg" alt="" />
+                            <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-[1.5em] text-white bg-black/70 hidden">Voir la photo</div>
+                        </a>
+                        <a href="images/portfolio/portrait6.jpg" target="_blank" className="images relative">
+                            <img className="w-[100%] h-[100%] object-cover" src="images/portfolio/portrait6.jpg" alt="" />
+                            <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-[1.5em] text-white bg-black/70 hidden">Voir la photo</div>
+                        </a>
                     </div>
                 </section>
             </section>
