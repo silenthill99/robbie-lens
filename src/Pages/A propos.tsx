@@ -38,7 +38,8 @@ export const APropos = () => {
                     <tr>
                         <td className="border border-[#a5b4fc] p-20">Assistant photo lumière professionnel</td>
                         <td className="border border-[#a5b4fc] p-20">x2 sets studio</td>
-                        <td className="border border-[#a5b4fc] p-20">1500€/journée</td></tr>
+                        <td className="border border-[#a5b4fc] p-20">1500€/journée</td>
+                    </tr>
                 </tbody>
             </table>
         </section>
