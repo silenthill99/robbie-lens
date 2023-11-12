@@ -28,13 +28,19 @@ export const Home = () => {
             </section>
             <section id="contacts">
                 <h2 className="text-[#a5b4fc] text-center">Parlons de votre projet</h2>
-                <form action="" method="get">
-                    <label className="text-white" htmlFor="name">Nom </label> <br/>
-                    <input type="text" className="border" id="name"/> <br/>
-                    <label htmlFor="mail" className="text-white">Email</label> <br/>
-                    <input type="email" name="" id="mail" className="border"/> <br/>
+                <form action="#" method="get">
+                    <div className="flex flex-row gap-5">
+                        <div className="flex flex-[1] flex-col mb-5">
+                            <label className="text-white" htmlFor="name">Nom </label>
+                            <input type="text" className="border" id="name"/>
+                        </div>
+                        <div className="flex flex-[1] flex-col mb-5">
+                            <label htmlFor="mail" className="text-white">Email</label>
+                            <input type="email" name="" id="mail" className="border"/>
+                        </div>
+                    </div>
                     <label htmlFor="message" className="text-white">Message</label> <br/>
-                    <textarea name="" id="message" cols={30} rows={10} className="border"></textarea> <br/>
+                    <textarea name="" id="message" rows={10} className="border"></textarea> <br/>
                     <input type="submit" value="Envoyer" className="text-white"/>
                 </form>
             </section>
