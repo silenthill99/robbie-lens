@@ -26,6 +26,25 @@ export const Home = () => {
                 </div>
                 
             </section>
+            <section id="contacts">
+                <h2 className="text-[#a5b4fc] text-center">Parlons de votre projet</h2>
+                <form action="" method="get">
+                    <table>
+                        <tr>
+                            <td><label htmlFor="name">Nom</label></td>
+                            <td><label htmlFor="email">Email</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="name"/></td>
+                            <td><input type="email" id="email"/></td>
+                        </tr>
+                        <tr className="col-span-2">
+                            <label htmlFor="message">Message</label> <br />
+                            <textarea name="" id="message" cols={30} rows={10}></textarea>
+                        </tr>
+                    </table>
+                </form>
+            </section>
         </section>
     )
 }
