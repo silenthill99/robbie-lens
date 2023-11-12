@@ -34,7 +34,8 @@ export const Home = () => {
                     <label htmlFor="mail" className="text-white">Email</label> <br/>
                     <input type="email" name="" id="mail" className="border"/> <br/>
                     <label htmlFor="message" className="text-white">Message</label> <br/>
-                    <textarea name="" id="message" cols={30} rows={10} className="border"></textarea>
+                    <textarea name="" id="message" cols={30} rows={10} className="border"></textarea> <br/>
+                    <input type="submit" value="Envoyer" className="text-white"/>
                 </form>
             </section>
         </section>
