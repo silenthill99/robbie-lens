@@ -8,7 +8,7 @@ export const Home = () => {
                 <div>
                     <h1>Robbie Lens Photographie</h1>  
                     <p>Où <span className="text-[#A5B4FC]">professionalisme</span> s’allie avec <span className="text-[#A5B4FC]">passion</span>. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque instant.</p>
-                    <a href="" className="bg-gradient-to-r from-[#8e86b5] to-[#acaeed] text-white hover:bg-gradient-to-r hover:from-[#696484] hover:to-[#8788BA] rounded-full">UN PROJET ? ÉCRIVEZ-MOI</a>
+                    <a href="#contacts" className="bg-gradient-to-r from-[#8e86b5] to-[#acaeed] text-white hover:bg-gradient-to-r hover:from-[#696484] hover:to-[#8788BA] rounded-full">UN PROJET ? ÉCRIVEZ-MOI</a>
                 </div>
                 <img src="images/robbie-lens.png" alt="" />
             </div>
@@ -25,6 +25,18 @@ export const Home = () => {
                     <img src="images/accueil/element-6.png" alt="" />
                 </div>
                 
+            </section>
+            <section id="contacts">
+                <h2 className="text-[#a5b4fc] text-center">Parlons de votre projet</h2>
+                <form action="" method="get">
+                    <label className="text-white" htmlFor="name">Nom </label> <br/>
+                    <input type="text" className="border" id="name"/> <br/>
+                    <label htmlFor="mail" className="text-white">Email</label> <br/>
+                    <input type="email" name="" id="mail" className="border"/> <br/>
+                    <label htmlFor="message" className="text-white">Message</label> <br/>
+                    <textarea name="" id="message" cols={30} rows={10} className="border"></textarea> <br/>
+                    <input type="submit" value="Envoyer" className="text-white"/>
+                </form>
             </section>
         </section>
     )
